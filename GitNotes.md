@@ -84,7 +84,7 @@ Git Commands
 
 *git pull* => fetch all the changes from the remote repository and merge any remote changes in the current local branch
 
-*git branch* => lists all the branches of the repository
+*git branch -a* => lists all the branches of the repository
 
 *git branch <new branch>* => creates a new branch, without checking it out
 
