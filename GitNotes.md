@@ -60,6 +60,12 @@ Git Commands
 
 *git fetch* => gets all the updates from the remote repository, including new branches
 
+*git log <local branch>..<server branch>* => run this after a fetch to see the new commits (with their unique hash IDs) that were fetched from the current repo
+    eg) *git log main..origin/main* compares my local 'main' branch with the 'main' branch server-side (origin/main)
+    eg *git log --oneline main..origin/main* gives a 1-line view of each commit
+
+*git show <hash ID>* => to view the specific changes to code in a particular commit, use the relevant hash ID
+
 *git checkout <branch name>* => switches to a branch you want to work on
 
 *git checkout -b <branch name>* => creates a new branch and switches to it
