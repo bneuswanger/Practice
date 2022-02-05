@@ -82,9 +82,9 @@ Git Commands
 
 *git diff <branch-X> <branch-Y>* => compare two branches
 
-*git pull* => fetch all the changes from the remote repository and merge any remote changes in the current local branch
+*git pull origin <branch>* => fetch all the changes from the remote repository and merge any remote changes in the current local branch
 
-*git branch* => lists all the branches of the repository
+*git branch -a* => lists all the branches of the repository
 
 *git branch <new branch>* => creates a new branch, without checking it out
 
@@ -123,3 +123,13 @@ Process to share changes with upstream repo
 
 
 
+////////////////////////////
+Dealing with merge conflicts
+////////////////////////////
+
+Say we are merging a feature-A branch into main, and there is a conflict.
+VS code will highlight the area(s) in conflict.  Simply edit those areas to be how you'd like it.  Delete the extra characters VS code inserted:     <<<<<<<<HEAD
+                       ==========
+                     >>>>>>>>>feature-A
+
+and once you're happy with the code, *git add .* to staging area and then *git commit* with no message.  This essentially finalizes the merge.  If do a *git log --online*, should see "Merge branch <branch name>" as the most recent commit to the main branch. 
