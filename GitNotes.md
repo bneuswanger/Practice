@@ -90,6 +90,8 @@ Git Commands
 
 *git branch -d <branch name>* => deletes a branch
 
+*git remote prune origin* => removes stale remote-tracking branches that have been removed from the remote repository so they don't show up in *git branch -a*
+
 *git push -u origin <branch name>* => adds a new branch to GitHub
 
 *git clone <repository url> <directory>* => download the latest version of a remote project and copy it to selected location on local machine.  Directory is an optional argument.  Ideally, first navigate to the destination folder in terminal before executing the command. 

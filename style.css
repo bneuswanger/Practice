@@ -2,17 +2,25 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 10px;
+}
+
+
 body {
-    background-color: #464646;
+    font-size: 1.6rem;
+    background-color: #2e0e47;
     color: white;
 }
+
 
 button {
     background-color: #2a87df;
     color: white;
     border: 2px solid rgb(171, 218, 224);
-    padding: 10px 20px;
-    border-radius: 1rem;
+    padding: 1rem 2rem;
+    border-radius: 1.5rem;
+    font-size: 1.9rem;
 }
 
 button:hover {
@@ -21,4 +29,8 @@ button:hover {
     transform: scale(1.04);
 }
 
+.stickyboi {
+    position: sticky;
+    bottom: 10px;
+}
 
