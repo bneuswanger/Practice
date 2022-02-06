@@ -31,5 +31,6 @@ button:hover {
 
 .stickyboi {
     position: sticky;
+    bottom: 10px;
 }
 
