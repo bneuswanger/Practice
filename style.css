@@ -30,7 +30,6 @@ button:hover {
 }
 
 .stickyboi {
-    position: relative;
-
+    position: sticky;
 }
 
