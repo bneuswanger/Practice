@@ -1,36 +1,5 @@
-*, *::after, *::before {
-    box-sizing: border-box;
-}
-
-html {
-    font-size: 10px;
-}
-
-
 body {
-    font-size: 1.6rem;
-    background-color: #2e0e47;
-    color: white;
+  background-color: fuchsia;
 }
 
-
-button {
-    background-color: #c463b7;
-    color: white;
-    border: 2px solid rgb(171, 218, 224);
-    padding: 1rem 2rem;
-    border-radius: 1.5rem;
-    font-size: 1.9rem;
-}
-
-button:hover {
-    background-color: #13bbd1;
-    cursor: pointer;
-    transform: scale(1.04);
-}
-
-.stickyboi {
-    position: sticky;
-    bottom: 10px;
-}
-
+/*# sourceMappingURL=style.css.map */
